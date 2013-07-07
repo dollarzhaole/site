@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block extra_head %}
+{#	<style>#}
+{#		body {#}
+{#			padding-top: 60px;#}
+{#		}#}
+{#	</style>#}
+{% endblock %}
+
+{% block header %}
+	{% block menu %}
+        <h1>赵乐's小站</h1>
+        <h5>专注ACM+面试题+Machine Learning+Python</h5>
+        <div class="navbar navbar-inverse">
+            <div class="navbar-inner nav-collapse" style="height: auto;">
+                <div class="container">
+                    <a class="brand" href="#">BLOG</a>
+                    <ul class="nav">
+                        <li class="active divider-vertical">
+                            <a href="{% url 'bloglist' %}">home</a>
+                        </li>
+                        <li>
+                            <a href="#">about</a>
+                        </li>
+                        <li>
+                            <a href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	{% endblock %}
+{% endblock %}
+{% block footer %}
+    {# 任何每个页面都可能修改的文本区域的页脚 #}
+    <footer class="footer">
+        <div class="container">
+            <p>欢迎访问我的网站</p>
+        </div>
+    </footer>
+{% endblock %}
+
+{% block sidebar %}
+    <h3>最新的评论</h3>
+    <ul class="nav nav-tabs nav-stacked">
+        <li><a href="#">Another Link 1</a></li>
+        <li><a href="#">Another Link 2</a></li>
+        <li><a href="#">Another Link 3</a></li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "blog_base.html" %}
+{% load comments %}
+
+{% block article %}
+    <article>
+        {% get_comment_count for blog as comment_count %}
+            <h4 class="muted comtop">{{ comment_count }} Comments </h4>
+            <hr class="soften">
+        {% get_comment_list for blog as blog_com %}
+        {% for comment in blog_com %}
+            <div class="container-fluid none-padding">
+                <p class="muted"><small>{{ comment.user }}</small><small>{{ comment.submit_date|date:"F,j,Y" }}</small></p>
+            </div>
+            <hr class="soften">
+        {% endfor %}
+    </article>
+{% endblock %}
