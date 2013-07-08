@@ -2,7 +2,7 @@
 import os
 import sys
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'BLOG.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'zhaole.BLOG.settings'
 path = os.path.dirname(os.path.abspath(__file__)) + '/BLOG'
 if path not in sys.path:
 	sys.path.insert(1, path)
