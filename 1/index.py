@@ -2,7 +2,7 @@
 import os
 import sys
  
-os.environ['DJANGO_SETTINGS_MODULE'] = 'djangodemo.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'zhaole.settings'
  
 path = os.path.dirname(os.path.abspath(__file__)) + '/zhaole'
 if path not in sys.path:
