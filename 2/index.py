@@ -12,3 +12,7 @@ from django.core.handlers.wsgi import WSGIHandler
 from bae.core.wsgi import WSGIApplication
 
 application = WSGIApplication(WSGIHandler())
+
+
+deps_path = os.path.join(os.path.split(os.path.realpath(__file__))[0], 'deps')
+sys.path.insert(0, deps_path)
