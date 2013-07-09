@@ -127,7 +127,9 @@ ROOT_URLCONF = 'BLOG.urls'
 WSGI_APPLICATION = 'BLOG.wsgi.application'
 
 import os
-TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\','/'),)
+TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, 'templates').replace('\\','/'),
+                 os.path.join(PROJECT_ROOT, 'templates', 'sblog').replace('\\','/'),
+)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -141,6 +143,8 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    'django.contrib.comments',
+    'sblog',
 )
 
 # A sample logging configuration. The only tangible logging
