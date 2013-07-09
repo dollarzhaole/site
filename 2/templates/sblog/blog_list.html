@@ -23,7 +23,7 @@
 {#			<a href="{% url 'delblog' blog.id %}" title="delete"><i class="icon-trash"></i></a>#}
 {#			<a href="{% url 'updateblog' blog.id %}" title="edit"><i class="icon-edit"></i></a>#}
 			{% get_comment_count for blog as comment_count %}
-			<a href="{% url 'detailblog' blog.id %}#cmt" title="comment"><i class="icon-comment"></i>{{ comment_count }}</a>
+			<a href="{% url detailblog blog.id %}#cmt" title="comment"><i class="icon-comment"></i>{{ comment_count }}</a>
 		</div>
 	<hr>
 	{% endfor %}
