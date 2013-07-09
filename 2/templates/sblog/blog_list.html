@@ -6,7 +6,7 @@
 {% block article %}
 <article class='content-main'>
 	{% for blog in blogs %}
-		<h4><a href="{% url 'detailblog' blog.id %}">{{ blog.caption }}</a></h4>
+		<h4><a href="{% url detailblog blog.id %}">{{ blog.caption }}</a></h4>
 		<p class="muted">
 			{% for tag in blog.tags.all %}
 				<i class="icon-tag"></i> <small>{{ tag }}</small>
