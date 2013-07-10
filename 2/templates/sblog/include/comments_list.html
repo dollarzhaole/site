@@ -1,0 +1,6 @@
+<h4>最新的评论</h4>
+<ul class="nav nav-tabs nav-stacked">
+    {% for cmt in cmt_list %}
+        <li><a href={{ url  }}>{{ cmt }}</a></li>
+    {% endfor %}
+</ul>
