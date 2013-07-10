@@ -142,9 +142,11 @@
                             <textarea class="input-xlarge comment" id="id_comment" name="comment" placeholder="please enter comment" required="required"></textarea>
                         </div>
                     </div>
-                    <p style="display:none;"><label for="id_honeypot">如果你在该字段中输入任何内容，那么你的评论就会被视为垃圾评论。</label> <input type="text" name="honeypot" id="id_honeypot"></p>
+                    <p style="display:none;"><label for="id_honeypot">如果你在该字段中输入任何内容，那么你的评论就会被视为垃圾评论。</label>
+                        <input type="text" name="honeypot" id="id_honeypot">
+                    </p>
                     <div class="form-actions">
-                        <input class="btn btn-info" type="submit" name="submit" value="Post">
+                        <input class="btn btn-info" type="submit" name="submit" value="提交">
                         {# <input class="btn btn-info" type="submit" name="preview" value="Preview"> #}
                         <input type='hidden' name='next' value='{% url showcomment blog.id %}'/>
                     </div>

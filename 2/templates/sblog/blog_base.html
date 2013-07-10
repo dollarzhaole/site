@@ -44,11 +44,6 @@
     </footer>
 {% endblock %}
 
-{% block sidebar %}
-    <h3>最新的评论</h3>
-    <ul class="nav nav-tabs nav-stacked">
-        <li><a href="#">1...</a></li>
-        <li><a href="#">2...</a></li>
-        <li><a href="#">3...</a></li>
-    </ul>
+{% block aside %}
+    {% include 'sblog/include/comments_list.html' %}
 {% endblock %}

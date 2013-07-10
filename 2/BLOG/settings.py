@@ -1,5 +1,6 @@
 # Django settings for BLOG project.
 import os
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
 
 setting_dir = os.path.dirname(__file__)
 PROJECT_ROOT = os.path.abspath(os.path.dirname(setting_dir))
@@ -111,12 +112,19 @@ TEMPLATE_LOADERS = (
 #     'django.template.loaders.eggs.Loader',
 )
 
+TEMPLATE_CONTEXT_PROCESSORS += (
+    "django.core.context_processors.request",
+    "django.contrib.auth.context_processors.auth",
+)
+
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'pagination.middleware.PaginationMiddleware',
+
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
@@ -145,6 +153,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'django.contrib.comments',
     'sblog',
+    'pagination',
 )
 
 # A sample logging configuration. The only tangible logging

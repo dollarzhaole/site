@@ -27,6 +27,7 @@ class GravatarUrlNode(template.Node):
             return ''
 
         default = "http://zhaole.duapp.com/static/img/defaultavatar.png"
+        # default = "http://t0.gstatic.com/images?q=tbn:ANd9GcRaeBAjJq917nEDg6o9HC9vSqwsoIE-j2TdGsH-T6RczdKoa-bN"
         size = 40
 
         gravatar_url = "http://www.gravatar.com/avatar/" + hashlib.md5(email.lower()).hexdigest() + "?"
