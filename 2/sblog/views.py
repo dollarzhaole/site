@@ -43,7 +43,7 @@ def blog_show(request, id=''):
 def blog_filter(request, id=''):
     tags = Tag.objects.all()
     tag = Tag.objects.get(id=id)
-    blogs = parse_blog(Blog.objects.all())
+    blogs = parse_blog(tag.blog_set.all())
     return render_to_response("blog_filter.html", {"blogs": blogs,
                                                    "cmt_list": blog_show_comment_list(request),
                                                    "tag": tag,
