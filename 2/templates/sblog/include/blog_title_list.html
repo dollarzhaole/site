@@ -1,0 +1,8 @@
+<h4>最新的文章</h4>
+{#<div class="well">#}
+    <ul class="nav nav-tabs nav-stacked">
+        {% for blog in bloglist %}
+            <li><a href="{% url detailblog blog.id %}">{{ blog.caption }}</a></li>
+        {% endfor %}
+    </ul>
+{#</div>#}

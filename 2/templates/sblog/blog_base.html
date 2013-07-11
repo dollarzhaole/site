@@ -10,6 +10,7 @@
     <script type="text/javascript" src="/static/js/syntaxhighlighter/scripts/shBrushJava.js"></script>
     {#    <script type="text/javascript" src="/static/js/syntaxhighlighter/scripts/shBrushCss.js"></script>#}
     <script type="text/javascript" src="/static/js/syntaxhighlighter/scripts/shBrushCpp.js"></script>
+
 {% endblock %}
 
 {% block extra_head %}
@@ -55,6 +56,14 @@
     </footer>
 {% endblock %}
 
-{% block aside %}
+{% block sidebar %}
     {% include 'sblog/include/comments_list.html' %}
+{% endblock %}
+
+{% block tag %}
+    {% include 'sblog/include/tags_list.html' %}
+{% endblock %}
+
+{% block blog_list %}
+    {% include 'sblog/include/blog_title_list.html' %}
 {% endblock %}

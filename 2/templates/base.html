@@ -47,6 +47,22 @@
         #content .sidebar {
             padding: 20px;
         }
+        .row-fluid {
+            position: relative;
+        }
+        .pagination {
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+{#            padding-bottom: 20px;#}
+
+        }
+{#        .well {#}
+{#            padding-top: 50px;#}
+{#        }#}
+{#        #content .sidebar h4 {#}
+{#            text-align: center;;#}
+{#        }#}
         #content .aaa {
             line-height: 30px;
         }
@@ -97,10 +113,13 @@
                     <div class="span3 sidebar">
 {#                    <div class="span2 offset1 sidebar">#}
                         {% block aside %}
+                            {% block blog_list %} {% endblock %}
+                            {% block tag %} {% endblock %}
 {#                            {% block addblog %}{% endblock %}#}
 {#                            {% block search %}{% endblock %}#}
 {#                            {% block tags %}{% endblock %}#}
-{#                            {% block sidebar %}{% endblock %}#}
+                            {% block sidebar %}{% endblock %}
+
                         {% endblock %}
                     </div>
                 </div>

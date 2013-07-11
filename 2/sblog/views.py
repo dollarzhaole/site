@@ -13,12 +13,18 @@ from django.core.context_processors import csrf
 
 
 def blog_list(request):
-    blogs = Blog.objects.all()
-    for blog in blogs:
-        if len(blog.content) > 400:
-            article = blog.content
-            blog.content = article[0:399]
-    return render_to_response("blog_list.html", {"blogs": blogs, "cmt_list": blog_show_comment_list(request)}, context_instance=RequestContext(request))
+    # blogs = Blog.objects.all()
+    blogs = parse_blog(Blog.objects.all())
+    # for blog in blogs:
+    #     if len(blog.content) > 400:
+    #         article = blog.content
+    #         blog.content = article[0:399]
+    return render_to_response("blog_list.html", {"blogs": blogs,
+                                                 "cmt_list": blog_show_comment_list(request),
+                                                 "tags": blog_tags_list(request),
+                                                 "bloglist": newest_blog(blogs),
+                                                 },
+                              context_instance=RequestContext(request))
 
 
 def blog_show(request, id=''):
@@ -26,19 +32,49 @@ def blog_show(request, id=''):
         blog = Blog.objects.get(id=id)
     except Blog.DoesNotExist:
         raise Http404
-    return render_to_response("blog_show.html", {"blog": blog, "cmt_list": blog_show_comment_list(request)},
+    return render_to_response("blog_show.html", {"blog": blog,
+                                                 "cmt_list": blog_show_comment_list(request),
+                                                 "tags": blog_tags_list(request),
+                                                 "bloglist": newest_blog(Blog.objects.all()),
+                                                 },
                               context_instance=RequestContext(request))
 
 
 def blog_filter(request, id=''):
     tags = Tag.objects.all()
     tag = Tag.objects.get(id=id)
-    blogs = tag.blog_set.all()
-    return render_to_response("blog_filter.html", {"blogs": blogs, "tag": tag, "tags": tags})
+    blogs = parse_blog(Blog.objects.all())
+    return render_to_response("blog_filter.html", {"blogs": blogs,
+                                                   "cmt_list": blog_show_comment_list(request),
+                                                   "tag": tag,
+                                                   "tags": tags,
+                                                   "bloglist": newest_blog(blogs),
+                                                   },
+                              context_instance=RequestContext(request)
+    )
 
 def blog_show_comment(request, id=''):
     blog = Blog.objects.get(id=id)
     return render_to_response('blog_comments_show.html', {'blog': blog})
+
+
+def blog_tags_list(request):
+    tag_list = Tag.objects.all()
+    return tag_list
+
+
+def parse_blog(blogs):
+    for blog in blogs:
+        if len(blog.content) > 400:
+            article = blog.content
+            blog.content = article[0:399]
+    return blogs
+
+
+def newest_blog(blogs):
+    if len(blogs) >= 10:
+        blogs = blogs[:10]
+    return blogs
 
 
 def blog_show_comment_list(request):
@@ -53,6 +89,7 @@ def blog_show_comment_list(request):
         qs = qs.extra(where=where, params=params)
     cmt_list = qs.order_by("-submit_date")[:10]
     return cmt_list
+
 
 # def blog_add(request):
 #     if request.method == 'POST':
