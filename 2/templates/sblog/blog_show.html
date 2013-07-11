@@ -114,7 +114,7 @@
 <article >     
     {% get_comment_form for blog as blog_form %}  
         <div id="comment_form">
-            <h4 class="muted comtop">New Comments</h4>
+            <h4 class="muted comtop">添加评论</h4>
             <form class="form-horizontal" action="{% comment_form_target %}" method="post">
                 <fieldset>
                     {% csrf_token %}
@@ -125,19 +125,19 @@
                     {{ blog_form.submit_date }}
                     {{ blog_form.security_hash }}
                     <div class="control-group">
-                        <label class="control-label" for="id_name">name: </label>
+                        <label class="control-label" for="id_name">名称（必填）: </label>
                         <div class="controls">
                             <input type="text" id="id_name" class="input-xlarge" name="name" placeholder="please enter name" required="required">
                         </div>
                     </div>
                     <div class="control-group">
-                        <label class="control-label" for="id_email">email: </label>
+                        <label class="control-label" for="id_email">Email（必填）: </label>
                         <div class="controls">
                             <input class="input-xlarge" id="id_email" type="email" name="email" placeholder="please enter email" required="required">
                         </div>
                     </div>
                     <div class="control-group">
-                        <label class="control-label" for="id_comment">comment: </label>
+                        <label class="control-label" for="id_comment">评论（必填）: </label>
                         <div class="controls">
                             <textarea class="input-xlarge comment" id="id_comment" name="comment" placeholder="please enter comment" required="required"></textarea>
                         </div>
@@ -147,8 +147,8 @@
                     </p>
                     <div class="form-actions">
                         <input class="btn btn-info" type="submit" name="submit" value="提交">
-                        {# <input class="btn btn-info" type="submit" name="preview" value="Preview"> #}
-                        <input type='hidden' name='next' value='{% url showcomment blog.id %}'/>
+{#                        <input class="btn btn-info" type="submit" name="preview" value="Preview">#}
+{#                        <input type='hidden' name='next' value='{% url showcomment blog.id %}'/>#}
                     </div>
                 </fieldset>
             </form> 
