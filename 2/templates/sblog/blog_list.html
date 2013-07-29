@@ -6,7 +6,7 @@
 
 {% block article %}
 <article class='content-main'>
-    {% autopaginate blogs 3 %}
+    {% autopaginate blogs 5 %}
     {% for blog in blogs %}     
         <h4><a href="{% url detailblog blog.id %}">{{ blog.caption }}</a></h4>
         <p class="muted">  

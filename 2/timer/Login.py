@@ -73,8 +73,8 @@ class CheckIn(object):
         print '################ login in header #################'
         print str(headers)
         print '################ login in header #################'
-        result = resp
-        # if headers['Content-Encoding'] == 'gzip':
+        result = resp #返回的页面是gzip，所以直接打印会是乱码！！！由于这里不需要打印返回的页面，注释掉
+        # if headers['Content-Encoding'] == 'gzip'://
         #     result =self.unzip(result)
 
         result.read()

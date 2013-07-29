@@ -23,7 +23,7 @@
     <file path="/tags_list.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373538501586" ignored="false" />
     <file path="/blog_filter.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373539289184" ignored="false" />
     <file path="/blog_title_list.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373544831414" ignored="false" />
-    <file path="/Login.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1375107372747" ignored="false" />
+    <file path="/Login.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1375108262696" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +69,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Login.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/timer/Login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="41" selection-start="235" selection-end="235" vertical-scroll-proportion="-2.663239">
+            <state line="106" column="37" selection-start="0" selection-end="5014" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#46#60#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sblog/blog_base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="34" selection-start="538" selection-end="538" vertical-scroll-proportion="-13.391304">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="11" selection-start="3098" selection-end="3294" vertical-scroll-proportion="17.652174">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_list.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/sblog/blog_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="27" selection-start="196" selection-end="196" vertical-scroll-proportion="0.1958042">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +118,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/templates/sblog/blog_list_1.html" />
-        <option value="$PROJECT_DIR$/templates/sblog/blog_list.html" />
         <option value="$PROJECT_DIR$/templates/sblog/include/tags_list.html" />
         <option value="$PROJECT_DIR$/templates/sblog/include/comments_list.html" />
         <option value="$PROJECT_DIR$/templates/sblog/include/blog_title_list.html" />
@@ -106,6 +132,7 @@
         <option value="$PROJECT_DIR$/BLOG/settings.py" />
         <option value="$PROJECT_DIR$/timer/views.py" />
         <option value="$PROJECT_DIR$/timer/Login.py" />
+        <option value="$PROJECT_DIR$/templates/sblog/blog_list.html" />
       </list>
     </option>
   </component>
@@ -186,7 +213,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="timer" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sblog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,11 +455,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22381635" sideWeight="0.59500694" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22381635" sideWeight="0.8626907" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40499306" sideWeight="0.99856526" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1373093" sideWeight="0.99856526" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -481,11 +526,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/syntaxhighlighter/styles/shThemeDefault.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="498" selection-end="498" vertical-scroll-proportion="0.2123412" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sblog/blog_show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="149" column="99" selection-start="6086" selection-end="6185" vertical-scroll-proportion="4.0504856" />
@@ -496,19 +536,11 @@
         <state line="6" column="58" selection-start="272" selection-end="282" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sblog/blog_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sblog/blog_filter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="23" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="11" selection-start="3098" selection-end="3294" vertical-scroll-proportion="0.0" />
+        <state line="27" column="23" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BLOG/wsgi.py">
@@ -574,10 +606,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/timer/Login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="235" selection-end="235" vertical-scroll-proportion="-2.663239">
+        <state line="106" column="37" selection-start="0" selection-end="5014" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#46#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sblog/blog_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="34" selection-start="538" selection-end="538" vertical-scroll-proportion="-13.391304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="11" selection-start="3098" selection-end="3294" vertical-scroll-proportion="17.652174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sblog/blog_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="196" selection-end="196" vertical-scroll-proportion="0.1958042">
+          <folding />
         </state>
       </provider>
     </entry>
