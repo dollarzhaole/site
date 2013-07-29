@@ -11,7 +11,8 @@ class CheckIn(object):
     username = ''
     pwd = ''
     cookie = None
-    cookiefile = tempfile.TemporaryFile()
+    # cookiefile = tempfile.TemporaryFile()
+    cookiefile = './cookie.dat'
     login_header = {'Host': 'emuch.net',
                     'Connection': 'keep-alive',
                     # 'Content-Length': '122',
