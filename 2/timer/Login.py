@@ -4,12 +4,14 @@ import urllib2
 import cookielib
 import urllib
 import time
+import tempfile
+
 
 class CheckIn(object):
     username = ''
     pwd = ''
     cookie = None
-    cookiefile = './cookie.dat'
+    cookiefile = tempfile.TemporaryFile()
     login_header = {'Host': 'emuch.net',
                     'Connection': 'keep-alive',
                     # 'Content-Length': '122',
