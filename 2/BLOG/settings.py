@@ -154,6 +154,7 @@ INSTALLED_APPS = (
     'django.contrib.comments',
     'sblog',
     'pagination',
+    'timer',
 )
 
 # A sample logging configuration. The only tangible logging
