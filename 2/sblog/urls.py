@@ -8,5 +8,6 @@ urlpatterns = patterns('sblog.views',
                        # url(r'^blog/(?P<id>\w+)/del/$', 'blog_del', name='delblog'),
                        url(r'^blog/(?P<id>\d+)/commentshow/$', 'blog_show_comment', name='showcomment'),
                        url(r'^blog/tag/(?P<id>\d+)/$', 'blog_filter', name='filterblog'),
+                       url(r'^resume/$', 'resume', name='myresume'),
                        # url(r'^commentslist/$', 'blog_show_comment_list', name='comment_list'),
                        )
