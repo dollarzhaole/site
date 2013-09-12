@@ -8,7 +8,7 @@
     <file path="$USER_HOME$/PycharmProjects/zhaole/BLOG/settings.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373291962215" ignored="false" />
     <file path="/settings.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1375102919201" ignored="false" />
     <file path="/Python Console" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1375107289236" ignored="false" />
-    <file path="/blog_base.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1378955191415" ignored="false" />
+    <file path="/blog_base.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1378955539353" ignored="false" />
     <file path="/blog_show.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373547486748" ignored="false" />
     <file path="/gravatar.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373454952975" ignored="false" />
     <file path="/start_script.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373424006394" ignored="false" />
@@ -90,7 +90,7 @@
       <file leaf-file-name="blog_base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/sblog/blog_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="18" selection-start="212" selection-end="212" vertical-scroll-proportion="-0.670282">
+            <state line="24" column="55" selection-start="566" selection-end="566" vertical-scroll-proportion="0.45553145">
               <folding />
             </state>
           </provider>
@@ -490,7 +490,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -673,7 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sblog/blog_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="212" selection-end="212" vertical-scroll-proportion="-0.670282">
+        <state line="24" column="55" selection-start="566" selection-end="566" vertical-scroll-proportion="0.45553145">
           <folding />
         </state>
       </provider>
