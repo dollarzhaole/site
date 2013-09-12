@@ -5,17 +5,20 @@
 {% endblock %}
 
 {% block extra_head %}
-{#	<style>#}
-{#		body {#}
-{#			padding-top: 60px;#}
-{#		}#}
-{#	</style>#}
+	<style>
+		#tou {
+            background: url(/static/img/tu.jpg) fixed;
+		}
+	</style>
 {% endblock %}
 
 {% block header %}
 	{% block menu %}
-        <h1>赵乐's小站</h1>
-        <h5>专注ACM+面试题+Machine Learning+Python</h5>
+        <div id="tou">
+            <h1>赵乐's小站</h1>
+            <h5>专注ACM+面试题+Machine Learning+Python</h5>
+        </div>
+
         <div class="navbar navbar-inverse">
             <div class="navbar-inner nav-collapse" style="height: auto;">
                 <div class="container">

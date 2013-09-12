@@ -29,6 +29,8 @@ def blog_list(request):
 def resume(request):
     return render_to_response("resume.html", {}, context_instance=RequestContext(request))
 
+def index(request):
+    return render_to_response("index.html", {}, context_instance=RequestContext(request))
 
 def blog_show(request, id=''):
     try:

@@ -22,7 +22,7 @@ urlpatterns = patterns('',
     url(r'^comments/', include('django.contrib.comments.urls')),
     url(r'^tinymce/', include('tinymce.urls')),
     url(r'^grappelli/',include('grappelli.urls')),
-    url(r'', 'sblog.views.blog_list', name='bloglist'),
+    url(r'', 'sblog.views.index', name='index'),
     )
 urlpatterns += patterns((''),
                         (r'^static/(?P<path>.*)$', 'django.views.static.serve',

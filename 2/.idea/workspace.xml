@@ -4,17 +4,17 @@
     <list default="true" id="1431ec43-c70f-48de-84c4-2648cd376022" name="Default" comment="" />
     <ignored path="2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/urls.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1378902179609" ignored="false" />
+    <file path="/urls.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1378912364484" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/zhaole/BLOG/settings.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373291962215" ignored="false" />
     <file path="/settings.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1375102919201" ignored="false" />
     <file path="/Python Console" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1375107289236" ignored="false" />
-    <file path="/blog_base.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1378902285227" ignored="false" />
+    <file path="/blog_base.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1378955191415" ignored="false" />
     <file path="/blog_show.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373547486748" ignored="false" />
     <file path="/gravatar.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373454952975" ignored="false" />
     <file path="/start_script.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373424006394" ignored="false" />
-    <file path="/views.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1378900278462" ignored="false" />
+    <file path="/views.py" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1378912398747" ignored="false" />
     <file path="/comments_list.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373544551275" ignored="false" />
-    <file path="/index.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373429811810" ignored="false" />
+    <file path="/index.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1378954252442" ignored="false" />
     <file path="/blog_list.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373528916876" ignored="false" />
     <file path="/test.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373452484807" ignored="false" />
     <file path="/test_bootstrap.html" changelist="1431ec43-c70f-48de-84c4-2648cd376022" time="1373526710837" ignored="false" />
@@ -45,34 +45,52 @@
       <file leaf-file-name="style_resume.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style_resume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog_base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/sblog/blog_base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="63" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-20.086956">
+            <state line="31" column="16" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sblog/urls.py">
+        <entry file="file://$PROJECT_DIR$/BLOG/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="65" selection-start="750" selection-end="758" vertical-scroll-proportion="0.0">
+            <state line="24" column="48" selection-start="894" selection-end="943" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/sblog/resume.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sblog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="67" selection-start="538" selection-end="538" vertical-scroll-proportion="0.53125">
+            <state line="17" column="80" selection-start="673" selection-end="741" vertical-scroll-proportion="-4.869565">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="33" selection-start="718" selection-end="718" vertical-scroll-proportion="7.9130435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_show.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sblog/blog_show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="79.73913">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/sblog/blog_base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="18" selection-start="212" selection-end="212" vertical-scroll-proportion="-0.670282">
               <folding />
             </state>
           </provider>
@@ -88,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/sblog/include/blog_title_list.html" />
         <option value="$PROJECT_DIR$/templates/sblog/blog_show.html" />
         <option value="$PROJECT_DIR$/static/js/syntaxhighlighter/styles/shThemeDefault.css" />
         <option value="$PROJECT_DIR$/templates/sblog/blog_filter.html" />
@@ -99,10 +116,11 @@
         <option value="$PROJECT_DIR$/timer/Login.py" />
         <option value="$PROJECT_DIR$/templates/sblog/blog_list.html" />
         <option value="$PROJECT_DIR$/templates/sblog/html5_resume_demo.html" />
-        <option value="$PROJECT_DIR$/sblog/views.py" />
-        <option value="$PROJECT_DIR$/BLOG/urls.py" />
-        <option value="$PROJECT_DIR$/templates/sblog/resume.html" />
         <option value="$PROJECT_DIR$/sblog/urls.py" />
+        <option value="$PROJECT_DIR$/BLOG/urls.py" />
+        <option value="$PROJECT_DIR$/sblog/views.py" />
+        <option value="$PROJECT_DIR$/templates/sblog/resume.html" />
+        <option value="$PROJECT_DIR$/templates/sblog/index.html" />
         <option value="$PROJECT_DIR$/templates/sblog/blog_base.html" />
       </list>
     </option>
@@ -155,7 +173,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,6 +251,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,18 +303,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -297,10 +333,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python\duapps\appid6fed7nfiud\2\static\img" />
+      <recent name="E:\Python\duapps\appid6fed7nfiud\2\templates\sblog" />
       <recent name="E:\Python\duapps\appid6fed7nfiud\2\static\css" />
       <recent name="E:\Python\duapps\appid6fed7nfiud\2\templates\sblog\include" />
       <recent name="E:\Python\duapps\appid6fed7nfiud\2\timer" />
-      <recent name="E:\Python\duapps\appid6fed7nfiud\2\templates\sblog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Python\duapps\appid6fed7nfiud\2\templates\sblog" />
@@ -324,27 +361,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,6 +380,27 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -453,14 +490,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22740315" sideWeight="0.70873785" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19655667" sideWeight="0.70873785" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -531,16 +568,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="302" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="226" selection-end="226" vertical-scroll-proportion="0.31343284" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/timer/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="67" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
@@ -557,9 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/timer/Login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="37" selection-start="0" selection-end="5014" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="106" column="37" selection-start="0" selection-end="5014" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sblog/blog_add.html">
@@ -583,53 +608,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sblog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="65" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.5393635">
-          <folding>
-            <element signature="e#26#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BLOG/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="685" selection-end="685" vertical-scroll-proportion="0.42211056">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="718" selection-end="718" vertical-scroll-proportion="0.3493761">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="750" selection-end="758" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sblog/blog_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="63" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-20.086956">
+        <state line="10" column="65" selection-start="750" selection-end="758" vertical-scroll-proportion="0.2892562">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style_resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+        <state line="31" column="16" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sblog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="19" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.02892562">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sblog/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="67" selection-start="538" selection-end="538" vertical-scroll-proportion="0.53125">
+        <state line="63" column="0" selection-start="1733" selection-end="1733" vertical-scroll-proportion="-1.4598215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sblog/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLOG/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="48" selection-start="894" selection-end="943" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sblog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="80" selection-start="673" selection-end="741" vertical-scroll-proportion="-4.869565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="33" selection-start="718" selection-end="718" vertical-scroll-proportion="7.9130435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sblog/blog_show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="79.73913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sblog/blog_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="18" selection-start="212" selection-end="212" vertical-scroll-proportion="-0.670282">
           <folding />
         </state>
       </provider>
