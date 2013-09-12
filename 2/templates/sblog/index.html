@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>赵乐的小站</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- <meta http-equiv=¡±Content-Type¡± content=¡±text/html; charset=gb2312¡å /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="./css/font-awesome.css" rel="stylesheet" /> -->
+
+    <!-- <link href="http://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600" rel="stylesheet" /> -->
+
+    <style>
+
+        /* http://css-tricks.com/perfect-full-page-background-image/ */
+        html {
+            background: url(/static/img/bkgd.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        body {
+            padding-top: 320px;
+            font-size: 16px;
+            font-family: "Open Sans",serif;
+            background: transparent;
+        }
+
+        img {
+            padding-top: 50px;
+        }
+
+        /* Override B3 .panel adding a subtly transparent background */
+        .panel {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .margin-base-vertical {
+            margin: 40px 0;
+        }
+
+        h3 {
+            padding-top: 20px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="panel panel-default text-center">
+            <img class="profile img-circle" src="/static/img/BG.jpg">
+                <h3>我是赵乐，爱好编程和创造。</h4>
+                <h5>上世纪八十年代中期生于河北。怀揣改变世界的梦想，希望能做出令人眼前一亮的产品。</h5>
+                <hr class="soften">
+                <p>
+                    <span class="hidden-phone">这是我的个人网站，</span>
+                    欢迎访问
+                    <a href="{% url bloglist %}" target="_blank">我的博客</a>
+                    和
+                    <a href="{% url myresume %}" target="_blank">个人简历</a>
+                </p>
+                <div class="margin-base-vertical">
+                    <small class="text-muted">
+                        Background picture is searched in the Internet.
+                        If I invade the right of yours, please <a href="mailto:dollar_wish@outlook.com">contact me</a>.
+                    <p>
+                        ©2013 赵乐
+                    </p>
+                    </small>
+                </div>
+
+            </div><!-- //main content
+        </div><!-- //row -->
+    </div> <!-- //container --> -->
+
+</body>
+</html>
